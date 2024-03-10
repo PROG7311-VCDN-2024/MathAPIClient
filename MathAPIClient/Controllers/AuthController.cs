@@ -82,6 +82,11 @@ namespace MathAPIClient.Controllers
                     + " - Browser: " + Request.Headers.UserAgent);
                 return View(login);
             }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError(String.Empty, ex.Message);
+                return View(login);
+            }
 
             return View();
         }
