@@ -43,6 +43,11 @@ namespace MathAPIClient.Controllers
                 ModelState.AddModelError(String.Empty, firebaseEx.error.message);
                 return View(login);
             }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError(String.Empty, ex.Message);
+                return View(login);
+            }
 
             return View();
 
