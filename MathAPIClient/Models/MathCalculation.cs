@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text.Json.Serialization;
-
-namespace MathAPIClient.Models;
+﻿namespace MathAPIClient.Models;
 
 public partial class MathCalculation
 {   
