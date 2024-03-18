@@ -1,6 +1,11 @@
 ## Building the MathAPI Client
 
-This repo shows the building of the MathAPI Client in VS. A starting point for this API is the [MathApp](https://github.com/PROG7311-VCDN-2024/MathApp). I recommend building that first so you understand how it all fits together before you break it up :-)
+This repo shows the building of the MathAPI Client in VS.
+
+A starting point for this app is the [MathApp](https://github.com/PROG7311-VCDN-2024/MathApp). 
+A requirement for this API Client is the [MathAPI](https://github.com/PROG7311-VCDN-2024/MathAPI).
+
+I strongly recommend building both first, so you understand how it all fits together before you break it up :-)
 
 This API covers aspects like:
 * Making POST requests to the MathAPI and sending through an object for processing
