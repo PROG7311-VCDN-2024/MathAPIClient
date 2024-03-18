@@ -2,7 +2,7 @@
 
 1. Adding in the HttpClient object to point to the API as base URL. Remember to put the port number of your API. Add this to the `MathController`
     ```
-        private static HttpClient httpClient = new()
+    private static HttpClient httpClient = new()
     {
         BaseAddress = new Uri("https://localhost:{port here}"),
     };
