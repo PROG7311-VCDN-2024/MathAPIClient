@@ -15,7 +15,7 @@ Before commencing, please consult the following API documentation as it gives an
 It is recommended that you follow these steps in order:
 
 1. [Creating your project](/Guides/CreatingYourProject.md)
-1. [Reusing the various class](/Guides/ReusingVariousClasses.md)
+1. [Reusing the various classes](/Guides/ReusingVariousClasses.md)
 1. [Updating the Calculate() HttpPost to post to API](/Guides/UpdatingCalculate.md)
 1. [Updating the History() HttpGet to read from API](/Guides/UpdatingHistory.md)
 1. [Updating the Clear() to delete using API](/Guides/UpdatingClear.md)
